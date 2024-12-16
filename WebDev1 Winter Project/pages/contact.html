@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Information</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name ="description" content="Summarizing the car scene in Ireland, including rallies and car shows">
+    <meta name ="author" content="Sean Scannell, MTU Kerry">
+    <meta name ="keywords" content ="cars, Ireland, rally, modified">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  <style>
+  
+  form {
+  text-align:center;
+  font-family: sans serif, Open Sans;
+  font-size: 2.1rem;
+  color: #333333;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 3px;
+  border-color:#F1C232;
+  margin: 10%;
+  padding: 20px;
+  }
+  
+  </style>
+  
+  </head>
+  <body>
+         <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="calendar.html">Calendar Of Events</a></li>
+                    <li><a href="gallery.html">Gallery of Recent Events</a></li>
+                    <li><a href="contact.html">Contact Us!</a></li>
+                </ul>
+            </nav>     
+        </header>
+        
+    <form method="post" action="mailto:seanscannell69@gmail.com" enctype="text/plain">
+        <h1>Sign Up for Our Monthly Newsletter</h1>
+        <fieldset>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" value="Joe" required><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" value="Enter your email" required><br>
+            <p>Do you agree to receving monthly newsletters via email?</p>
+            <input type ="radio" name="agree" id="agree" value="agree" checked="checked">
+            <label for="agree">Yes, I agree.</label><br>
+            <label for="comments">Comments or suggestions for the website.</label>
+            <textarea style="margin-top:5px;" name ="comments" rows="3" cols="60">Please make any comments or suggestions you may have for the site.</textarea><br>
+            <input value="Subscribe!" name="subscribe" type="submit">
+            <input value="Start Over" name="startover" type="reset"><br>
+        </fieldset> 
+    </form>
+        
+        <br>
+        
+        <footer>
+        <a href="#top">Back to top</a> <br>
+        &copy; 2024 Sean Scannell, MTU Kerry. All rights reserved.<br>
+        Enquiries:<a href="mailto:seanscannell69@gmail.com">seanscannell69@gmail.com</a>
+        </footer>
+  </body>
+</html>

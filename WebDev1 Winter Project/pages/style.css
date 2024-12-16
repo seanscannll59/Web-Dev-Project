@@ -1,0 +1,116 @@
+/* CSS Document */
+
+
+
+
+
+    html {
+    font-size: 62.5%;
+    }
+    
+    header {
+    background-color: #ADD8E6;
+    height: 80px;
+    font-size: 2.0rem;
+    padding: 20px;
+    }
+
+    footer {
+    text-align: center;
+    height: 80px;
+    background-color: #ADD8E6;
+    font-size: 2.0rem;
+    }
+
+    nav {
+    display: block;
+    text-align: center;
+    }
+    
+    nav li {
+    display: inline;
+    list-style-type: none;
+    margin:15px;
+    }
+    
+    a:link{
+    font-family: sans serif, Open Sans;
+    color: blue;
+    text-decoration: none;
+    }
+    
+    a:visited {
+    font-family: sans serif, Open Sans;
+    color:blue;
+    text-decoration: none;
+    }
+    
+    nav a:link {
+    font-family: sans serif, Open Sans;
+    font-size: 3.0rem;
+    color: #333333;
+    text-decoration: none;
+    }
+    
+    nav a:visited {
+    font-family: sans serif, Open Sans;
+    font-size: 3.0rem;
+    color: #333333;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    color: #008C45;
+    } 
+    
+    body {
+    text-align:center;
+    background-image:url(../images/twincam.jpg);
+    background-repeat:no-repeat;
+    background-position:centre;
+    background-size: cover;
+    }
+    
+    p {
+    font-family: sans serif, Open Sans;
+    font-size: 2.1rem;
+    color: #333333;
+    }
+
+    h1 {
+    color: #008C45;
+    font-family: sans serif, Merriweather;
+    font-size: 4.0rem;
+    }
+    
+    li {
+    font-family: sans serif, Open Sans;
+    font-size: 2.1rem;
+    color: #333333;
+    }
+    
+    li a:link{
+    color: blue;
+    }
+    
+    table {
+    margin-top-bottom: 100px;
+    margin: auto;
+    font-family: sans serif, Open Sans;
+    font-size: 2.6rem;
+    color: #333333;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F1C232;
+    border-collapse: collapse;
+    padding: 20px;
+    }
+    
+    td, th {
+    border: 1px solid #000000;
+    }
+    
+    thead {
+    background-color:#ADD8E6;
+    }
